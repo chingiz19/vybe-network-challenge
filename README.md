@@ -20,8 +20,8 @@ This project was developed as part of a challenge to build an analytics dashboar
 Clone the Repository
 
 ```bash
-git clone https://github.com/chingiz19/vybenetwork.git
-cd vybenetwork
+git clone https://github.com/chingiz19/vybe-network-challenge.git
+cd vybe-network-challenge
 ```
 
 Each subdirectory contains a README.md file with specific instructions for setting up and running the respective parts of the application:
