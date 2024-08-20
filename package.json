@@ -1,0 +1,23 @@
+{
+  "name": "vybenetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "prepare:server": "cp -r client/dist server/public",
+    "build": "npm run build:client && npm run prepare:server && npm run build:server",
+    "start": "npm run build && npm run start --prefix server",
+    "docker:build": "docker build -t vybenetwork-app ./server",
+    "docker:run": "docker run -p 3000:3000 vybenetwork-app",
+    "docker": "npm run build && npm run docker:build && npm run docker:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

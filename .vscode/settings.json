@@ -1,0 +1,13 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "svelte": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
+}
