@@ -6,14 +6,14 @@ This project is a full-stack application designed to provide real-time analytics
 
 This project was developed as part of a challenge to build an analytics dashboard that interacts with the Solana blockchain. The primary goals of the project are to:
 
-    •	Fetch and display blockchain data: The backend interacts with the Solana blockchain through the public RPC endpoint and provides real-time data to the frontend.
-    •	Visualize data using charts: The frontend application displays the data using various chart types, including pie charts, time series charts, and bar charts.
-    •	Deploy the application in a containerized environment: The backend server is deployed using Docker, ensuring consistency and ease of deployment across different environments.
+- Fetch and display blockchain data: The backend interacts with the Solana blockchain through the public RPC endpoint and provides real-time data to the frontend.
+- Visualize data using charts: The frontend application displays the data using various chart types, including pie charts, time series charts, and bar charts.
+- Deploy the application in a containerized environment: The backend server is deployed using Docker, ensuring consistency and ease of deployment across different environments.
 
 ## Project Structure
 
-    •	client/: Contains the frontend application built with React, TypeScript, and Vite. It fetches data from the backend and displays it using charts.
-    •	server/: Contains the backend server built with Node.js. It interacts with the Solana blockchain and provides data to the frontend via a RESTful API.
+- client/: Contains the frontend application built with React, TypeScript, and Vite. It fetches data from the backend and displays it using charts.
+- server/: Contains the backend server built with Node.js. It interacts with the Solana blockchain and provides data to the frontend via a RESTful API.
 
 ## Getting Started
 
@@ -26,8 +26,8 @@ cd vybenetwork
 
 Each subdirectory contains a README.md file with specific instructions for setting up and running the respective parts of the application:
 
-    •	Client README
-    •	Server README
+- [Client](./client/README.md) README
+- [Server](./server/README.md) README
 
 Instructions for running the client and server can be found in their respective README.md files. Typically, you’ll run the backend server first, followed by the frontend client.
 
