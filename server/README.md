@@ -12,24 +12,24 @@ This backend service is a Node.js server deployed using Docker. It interacts wit
 
 1. MarketCapDistribution
 
-- Description: Fetches data for five of your most bullish SPL tokens. For each token, the API retrieves the current supply and uses a price API to calculate the market cap.
-- Endpoint: /api/analytics/marketCapDistribution
-- Method: GET
-- Response: Returns an array of tokens with their corresponding market cap in USD.
+   - Description: Fetches data for five of your most bullish SPL tokens. For each token, the API retrieves the current supply and uses a price API to calculate the market cap.
+   - Endpoint: /api/analytics/marketCapDistribution
+   - Method: GET
+   - Response: Returns an array of tokens with their corresponding market cap in USD.
 
 2. TransactionsPerSecond
 
-- Description: Fetches the Solana transactions-per-second (TPS) metric from the RPC over time, producing a timeseries dataset. The timeframe is optimized based on data availability and server load considerations.
-- Endpoint: /api/analytics/transactionsPerSecond
-- Method: GET
-- Response: Returns a timeseries dataset of TPS metrics.
+   - Description: Fetches the Solana transactions-per-second (TPS) metric from the RPC over time, producing a timeseries dataset. The timeframe is optimized based on data availability and server load considerations.
+   - Endpoint: /api/analytics/transactionsPerSecond
+   - Method: GET
+   - Response: Returns a timeseries dataset of TPS metrics.
 
 3. WalletBalance
 
-- Description: Fetches the balances of a list of 10 wallets and formats the data to be displayed on a bar chart.
-- Endpoint: /api/analytics/walletBalance
-- Method: GET
-- Response: Returns an array of wallet balances in both SOL and USD.
+   - Description: Fetches the balances of a list of 10 wallets and formats the data to be displayed on a bar chart.
+   - Endpoint: /api/analytics/walletBalance
+   - Method: GET
+   - Response: Returns an array of wallet balances in both SOL and USD.
 
 ## Environment Variables
 

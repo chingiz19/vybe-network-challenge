@@ -21,21 +21,21 @@ Technologies used:
 
 1. Pie Chart
 
-- Purpose: Represents the market cap distribution of five chosen SPL tokens.
-- Library: Implemented using ApexCharts.
-- Data Source: Fetched from the backend and visualized to show each token’s market cap.
+   - Purpose: Represents the market cap distribution of five chosen SPL tokens.
+   - Library: Implemented using ApexCharts.
+   - Data Source: Fetched from the backend and visualized to show each token’s market cap.
 
 2. Time Series Chart
 
-- Purpose: Displays the Solana transactions per second (TPS) metric over time.
-- Library: Implemented using ApexCharts.
-- Data Source: Time series data fetched from the backend, providing an overview of Solana’s performance.
+   - Purpose: Displays the Solana transactions per second (TPS) metric over time.
+   - Library: Implemented using ApexCharts.
+   - Data Source: Time series data fetched from the backend, providing an overview of Solana’s performance.
 
 3. Bar Chart
 
-- Purpose: Shows the SOL balances of 10 randomly chosen wallets from Vybe Network's [rich list](https://alpha.vybenetwork.com/tokens/richlist).
-- Library: Implemented using ApexCharts.
-- Data Source: The wallet addresses are either selected randomly or based on specific interest.
+   - Purpose: Shows the SOL balances of 10 randomly chosen wallets from Vybe Network's [rich list](https://alpha.vybenetwork.com/tokens/richlist).
+   - Library: Implemented using ApexCharts.
+   - Data Source: The wallet addresses are either selected randomly or based on specific interest.
 
 ### Tailwind CSS Usage
 

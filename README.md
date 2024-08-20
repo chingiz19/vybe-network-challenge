@@ -17,7 +17,7 @@ This project was developed as part of a challenge to build an analytics dashboar
 
 ## Getting Started
 
-1. Clone the Repository
+Clone the Repository
 
 ```bash
 git clone https://github.com/chingiz19/vybenetwork.git
@@ -31,7 +31,7 @@ Each subdirectory contains a README.md file with specific instructions for setti
 
 Instructions for running the client and server can be found in their respective README.md files. Typically, you’ll run the backend server first, followed by the frontend client.
 
-If you want to run front end and back end application at the same time for development purposes, run: `npm run dev`
+To concurrently run both the frontend and backend applications for development purposes, use the following command: `npm run dev`.
 
 ## Deployment
 
